@@ -1,0 +1,59 @@
+body {
+	background-color: darkgrey;
+	font-family: "Poppins", sans-serif;
+}
+
+.card {
+	background-color: whitesmoke;
+	border-radius: 20px;
+	padding: 10px;
+	width: 400px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	-webkit-box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.1);
+	box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.1);
+	h1 {
+		font-size: 2rem;
+		font-weight: 700;
+		margin: 5px 5px auto 0;
+		padding: 5px;
+		text-align: center;
+	}
+	img {
+		border-radius: 20px;
+		margin-top: 5px;
+		width: 100%;
+		height: auto;
+	}
+	p {
+		margin-top: 5px;
+		text-align: center;
+		font-size: 1rem;
+		font-weight: 400;
+		padding: 5px;
+	}
+	ul {
+		text-align: center;
+		font-weight: 500;
+		margin-top: 5px;
+		list-style: none;
+		padding: 0;
+		li {
+			display: inline-block;
+			margin: 0 5px;
+		}
+	}
+	.contact {
+		p {
+			margin: 0;
+			text-align: center;
+			font-size: 0.8rem;
+			font-weight: 400;
+			padding: 5px;
+		}
+	}
+}
